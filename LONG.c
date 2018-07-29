@@ -18,9 +18,20 @@ void add(int, int);
 void sub(int, int);
 void div(int, int);
 void mul(int, int);
+int main(int argc, char *argv[])
+{
+  int *c;
+  int cnt=0, i=0, a=10, b=3;
 // ARGS //////////////////////////////////
+  while (--argc>0)
+    { printf("argv[%d]:%s\n", ++cnt, *(++argv)); }
 // address of variable ///////////////////
+  c=&b;
+  printf("a_addr = %p a_val = %d\nb_addr = %p b_val = %d\nc_addr = %p c_val = %d\n",
+         (void*)&a, a, (void*)&b, b, (void*)c, *c); 
 // varible changed in fn /////////////////
+  ptr(&a, &b);
+  printf("a+=1 = %d\nb*=2 = %d\n", a, b);
 // PTR ///////////////////////////////////
 // ARRAY /////////////////////////////////
 // loop //////////////////////////////////
@@ -34,6 +45,8 @@ void mul(int, int);
 // dispatch table ////////////////////////
 // BITWISE ///////////////////////////////
 // YAY ///////////////////////////////////
+
+}
 // address of variable ///////////////////
 // ARRAY /////////////////////////////////
 // STRING ////////////////////////////////
