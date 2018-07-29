@@ -6,6 +6,19 @@
 #define RED   "\x1b[31m"
 #define RESET "\x1b[0m"
 #define GREEN "\x1b[32m"
+// fns ///////////////////////////////////
+void ptr(int*, int*);
+void arr(int *);
+int str_ln(char*);
+void prt_str(char*);
+void();
+void();
+void();
+void();
+void();
+void();
+void();
+void();
 // ARGS //////////////////////////////////
 // address of variable ///////////////////
 // varible changed in fn /////////////////
