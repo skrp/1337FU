@@ -11,14 +11,13 @@ void ptr(int*, int*);
 void arr(int *);
 int str_ln(char*);
 void prt_str(char*);
-void();
-void();
-void();
-void();
-void();
-void();
-void();
-void();
+void wrap_fn(void (*fn_ptr)());
+void fn_ptr1();
+void fn_ptr2();
+void add(int, int);
+void sub(int, int);
+void div(int, int);
+void mul(int, int);
 // ARGS //////////////////////////////////
 // address of variable ///////////////////
 // varible changed in fn /////////////////
