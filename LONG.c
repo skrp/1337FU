@@ -33,9 +33,18 @@ int main(int argc, char *argv[])
   ptr(&a, &b);
   printf("a+=1 = %d\nb*=2 = %d\n", a, b);
 // PTR ///////////////////////////////////
+  *c=4;
+  printf("*c=4 = %d\n++(*c) = %d\n", *c, ++(*c));
 // ARRAY /////////////////////////////////
+  int d[MAX];
+  int *e;
+  int z=0;
+  char *f="fkdaworld", *g="fkuztoozz";
 // loop //////////////////////////////////
+  while (z<MAX)
+    {d[z]=z*MAX; z++;}
 // array change in fn ////////////////////
+  
 // STRING ////////////////////////////////
 // pointer array /////////////////////////
 // multi-d array /////////////////////////
