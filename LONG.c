@@ -43,10 +43,18 @@ int main(int argc, char *argv[])
 // loop //////////////////////////////////
   while (z<MAX)
     {d[z]=z*MAX; z++;}
+  e+=9;
+  printf("int_ptr+=9 = %d\n", *e);
 // array change in fn ////////////////////
-  
+  arr(d);
+  printf("fn array change %d\n", *(d+3));
 // STRING ////////////////////////////////
+  printf("constant %d\nptr string %d\nstr_ln(f+4) %d\n", str_ln("fkutoo"),
+         str_ln(f), str_ln(f+4));
 // pointer array /////////////////////////
+  i=0;
+  char *day[]={"monday", "tues", "wednesday", "thurs", "fry 420 day", "SAT", "7"};
+  prt_str(
 // multi-d array /////////////////////////
 // FUNCTION //////////////////////////////
 // function pointer //////////////////////
