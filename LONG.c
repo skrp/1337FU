@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
 	printf("a>>1 = %d\n", a>>1);
 	printf("a<<1 = %d\n", a<<1);
 // YAY ////////////////////////////////////////
-	printf("++LVL_@_MASTER well done!\n");
+	printf("++LVL_@_MASTER\n");
 	return 0;
 }
 // VAR ADDR ///////////////////////////////////
