@@ -1,3 +1,26 @@
+#####################################
+# taichihaun - scrub to 1337
+#          paul & dr. yang jwing-ming
+#####################################
+# AREA ##############################
+rectangle brick zone
+  break-up ground till rockless & 5in-depth
+  path down lose ground
+  length is shoulder-width plus brick-length
+branch 
+ long branch
+tai-chi-flying-yawn-launch-stump
+Tree boxing
+long 60-40 stance
+# STRIKE ############################
+phoenix-strike
+  qi-cavity-shadow
+# BRICK #############################
+60-brick
+  large rectangle fbrick
+40-brick
+  small square brick
+Train to the ideal 60-40 position until natural
 # FIRST DAY #########################
 8-stance & 8-set
 60-brick 40-brick
