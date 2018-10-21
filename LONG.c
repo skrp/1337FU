@@ -1,9 +1,6 @@
 // LONG - c long form  /////////////////////////
 #include <stdio.h>
 #define MAX 10
-#define RESET "\x1b[0m"
-#define RED "\x1b[31m"
-#define GREEN "\x1b[32m"
 void ptr(int *, int *);
 void arr(int *);
 int str_ln(char *);
@@ -63,12 +60,11 @@ int main(int argc, char *argv[])
 		{21,23,24,25,26}};
 	printf("%d\n", list[2][3]);
 // FUNCTION ///////////////////////////////////
-	printf(RED "fn points point to start of executable code\n");
+	printf("fn points point to start of executable code\n");
 	printf(" *a[N] = an N-element array of pointers\n");
 	printf(" (*a)[N] = pointer to an N-element array\n");
 	printf(" *f() = fuction returning a pointer\n");
 	printf(" (*f)() = pointer to a function\n");
-	printf(RESET"");
 // function pointers ///////////////////////////
 	void (*fn_ptr)(int *, int *) = ptr;
 	fn_ptr(&a, &b);
@@ -79,9 +75,8 @@ int main(int argc, char *argv[])
 	int ch;
 	void(*dispatch_table[])(int, int) = {add, sub, div, mul};
 // input //////////////////////////////////////
-	printf(GREEN"enter 0-3: 0 add. 1 sub. 2 div. 3 mul\n");
+	printf("enter 0-3: 0 add. 1 sub. 2 div. 3 mul\n");
 	scanf("%d", &ch);
-	printf(RESET"");
 // kill ///////////////////////////////////////
 	if (ch == 0 | ch == 1 | ch == 2 | ch == 3)
 		{printf("your choice = %d\n", ch);}
